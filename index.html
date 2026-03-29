@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SneakerStore</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff;
+            color: #222;
+        }
+
+        /* HEADER */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px 60px;
+            background: #f7f7f7;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 16px;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .btn {
+            background: #000;
+            color: #fff;
+            padding: 12px 28px;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        /* FEATURED PRODUCTS */
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            margin-top: 60px;
+            margin-bottom: 10px;
+        }
+
+        .underline {
+            width: 60px;
+            height: 3px;
+            background: #000;
+            margin: 0 auto 40px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 0 40px;
+        }
+
+        .product-card {
+            width: 280px;
+            border: 1px solid #e5e5e5;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            background: #fff;
+        }
+
+        .product-card img {
+            width: 90%;
+        }
+
+        .product-card h3 {
+            margin: 15px 0 8px;
+            font-size: 18px;
+        }
+
+        .product-card p {
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+            font-size: 14px;
+            color: #555;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">SNEAKER<span style="color: gray;">STORE</span></div>
+
+        <nav>
+            <a href="#">Trang chủ</a>
+            <a href="#">Sản phẩm</a>
+            <a href="#">Khuyến mãi</a>
+            <a href="#">Liên hệ</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Bộ Sưu Tập Mới 2024</h1>
+            <p>Thiết kế tối giản – Phong cách hiện đại – <br>
+               Chất lượng hàng đầu</p>
+            <button class="btn">Mua ngay</button>
+        </div>
+
+        <img src="images/z7671092678026_533a765efd455a3383bbb3c994aa88eb.jpg" alt="Shoes" width="420">
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <h2 class="section-title">Sản phẩm nổi bật</h2>
+    <div class="underline"></div>
+
+    <section class="products">
+
+        <div class="product-card">
+            <img src="images/z7671092678026_533a765efd455a3383bbb3c994aa88eb.jpg" alt="Nike Air Max">
+            <h3>Nike Air Max</h3>
+            <p>1.450.000đ</p>
+            <button class="btn">Mua ngay</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/z7671092680748_ccdc5a446a66d1c04e97eaff535ec2aa.jpg" alt="Adidas Ultraboost">
+            <h3>Adidas Ultraboost</h3>
+            <p>1.790.000đ</p>
+            <button class="btn">Mua ngay</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/z7671092684939_4076ca6ac6efb18526ccd3aba685ddc1.jpg" alt="Puma RS-X">
+            <h3>Puma RS-X</h3>
+            <p>1.350.000đ</p>
+            <button class="btn">Mua ngay</button>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2024 SneakerStore — Tất cả quyền được bảo lưu
+    </footer>
+
+</body>
+</html>
